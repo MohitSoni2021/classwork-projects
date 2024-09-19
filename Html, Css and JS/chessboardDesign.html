@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .row{
+        display: flex;
+    }
+    .row div{
+        height: 100px;
+        width: 100px;
+        border: 2px solid black;
+        margin: 1px;
+    }
+    .continer > div:nth-child(even) > div:nth-child(even){
+        background-color: rgb(17, 134, 95);
+        flex-direction: column;
+    }
+    .continer > div:nth-child(odd) > div:nth-child(odd){
+        background-color: rgb(17, 134, 95);
+    }
+    div - .continer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .continer div:nth-child(1) > div:nth-child(1), .continer div:nth-child(1) > div:nth-child(8){
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/a/a0/Chess_rdt60.png');
+        background-position: center;
+        background-size: cover;
+    }
+    .continer div:nth-child(8) > div:nth-child(1), .continer div:nth-child(8) > div:nth-child(8){
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/5c/Chess_rlt60.png');
+        background-position: center;
+        background-size: cover;
+    }
+    .continer div:nth-child(1) > div:nth-child(2), .continer div:nth-child(1) > div:nth-child(7){
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/f/f1/Chess_ndt60.png');
+        background-position: center;
+        background-size: cover;
+    }
+    .continer div:nth-child(8) > div:nth-child(2), .continer div:nth-child(8) > div:nth-child(7){
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/2/28/Chess_nlt60.png?20120721213133');
+        background-position: center;
+        background-size: cover;
+    }
+    .continer div:nth-child(1) > div:nth-child(3), .continer div:nth-child(1) > div:nth-child(6){
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/8/81/Chess_bdt60.png?20120721213129');
+        background-position: center;
+        background-size: cover;
+    }
+    .continer div:nth-child(8) > div:nth-child(3), .continer div:nth-child(8) > div:nth-child(6){
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/9/9b/Chess_blt60.png');
+        background-position: center;
+        background-size: cover;
+    }
+
+    .continer div:nth-child(1) > div:nth-child(4){
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/e/e3/Chess_kdt60.png');
+        background-position: center;
+        background-size: cover;
+    }
+    .continer div:nth-child(8) > div:nth-child(4){
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/4/49/Chess_qlt60.png');
+        background-position: center;
+        background-size: cover;
+    }
+    .continer div:nth-child(1) > div:nth-child(5){
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/a/af/Chess_qdt60.png');
+        background-position: center;
+        background-size: cover;
+    }
+    .continer div:nth-child(8) > div:nth-child(5){
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/3b/Chess_klt60.png');
+        background-position: center;
+        background-size: cover;
+    }
+    .continer > div:nth-child(2)>div{
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/c/cd/Chess_pdt60.png');
+        background-position: center;
+        background-size: cover;
+    } 
+    .continer > div:nth-child(7) > div{
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/0/04/Chess_plt60.png');
+        background-position: center;
+        background-size: cover;
+    }
+</style>
+<body>
+    <div class="continer">
+        <div class="container1 row">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="container2 row">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="container3 row">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="container4 row">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="container5 row">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="container6 row">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="container7 row">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="container8 row">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+    </div>
+</body>
+</html>
